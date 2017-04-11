@@ -1,0 +1,36 @@
+nav {
+  background-color: #81E093;
+}
+nav h1 {
+  font-size: 40px;
+  padding: 2vw;
+  margin-left: 10vw;
+}
+#social-media {
+  margin-left: 10vw;
+}
+nav i {
+  padding-left: 2vw;
+  width: 5vw;
+  height: 5vw;
+  font-size: 5vw;
+}
+body {
+  background-color: #A5F79B;
+  margin-left: 10vw;
+}
+.fa:before {
+  width: 100px;
+  font-size: 50px;
+}
+aside {
+  width: 10vw;
+  clear:right;
+}
+#left-aside {
+  float:left;
+  clear: right;
+}
+#right-aside {
+  float: right;
+}
