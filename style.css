@@ -24,8 +24,9 @@ body {
   font-size: 50px;
 }
 aside {
-  width: 10vw;
-  clear:right;
+  width: 23vw;
+  height: 100vh;
+  background-color: white;
 }
 #left-aside {
   float:left;
@@ -33,4 +34,17 @@ aside {
 }
 #right-aside {
   float: right;
+}
+section {
+  border-color: red;
+  border-width: 2px;
+  border: solid;
+  width: 25vw;
+  height: 100vh;
+  float:right;
+  padding-top:100px;
+}
+#pro {
+  background-color: white;
+  padding-top: 40px;
 }
