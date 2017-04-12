@@ -6,6 +6,8 @@ nav img {
   width: 75px;
   height: 75px;
   border-radius: 100px;
+  left: 2em;
+  top: 5em;
 }
 nav h1 {
   display: inline-block;
@@ -58,4 +60,14 @@ section {
   background-color: white;
   padding-top: 10px;
   text-align: center;
+}
+.icon-menu {
+  float: right;
+  font-size: 10vw;
+
+}
+@media (min-width: 600px) {
+  .icon-menu:before {
+    content: "\e9bd";
+  }
 }
