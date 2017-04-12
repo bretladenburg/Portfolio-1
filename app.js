@@ -5,5 +5,9 @@ var projectsArr = [];
 function projects(title, description, url) {
   this.title = title;
   this.description = description;
-  this.url = url;
+  this.source = source;
+  this.populateData = function() {
+    for(i = 0; i < projectData.length; i++) {
+    }
+  }
 }
