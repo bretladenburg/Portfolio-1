@@ -67,6 +67,10 @@ section {
   top: 1vh;
   right: 1vw;
 }
+section img {
+  width: 30%;
+  height: 100px;
+}
 @media (min-width: 600px) {
   .icon-menu {
     display:none;
