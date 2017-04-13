@@ -61,6 +61,9 @@ section {
   padding-top: 10px;
   text-align: center;
 }
+.template {
+  display: none;
+}
 .icon-menu {
   float: right;
   font-size: 10vw;
