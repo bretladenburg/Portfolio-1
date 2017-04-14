@@ -51,21 +51,28 @@ aside {
   float: right;
 }
 section {
-  width: 30%;
-  height: 100vh;
   float:right;
   padding-top:100px;
+  width: 80%;
+  height: 500px;
 }
 .pro {
   background-color: white;
   padding-top: 10px;
   text-align: center;
 }
+.template {
+  display: none;
+}
 .icon-menu {
   float: right;
   font-size: 10vw;
   top: 1vh;
   right: 1vw;
+}
+section img {
+  width: 30%;
+  height: 100px;
 }
 @media (min-width: 600px) {
   .icon-menu {
