@@ -1,0 +1,26 @@
+nav {
+  background-color: #999;
+}
+nav img {
+  margin: 20px;
+  width: 75px;
+  height: 75px;
+  border-radius: 100px;
+  left: 2em;
+  top: 5em;
+}
+nav span {
+  font-size: 20px;
+  background-color: #777;
+}
+nav h1 {
+  display: inline-block;
+  font-size: 40px;
+  padding: 2vw;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  padding-left: 2vw;
+}

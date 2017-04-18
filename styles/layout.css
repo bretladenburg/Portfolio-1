@@ -1,0 +1,21 @@
+#left-aside {
+  float:left;
+}
+#pro {
+  background-color: white;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+#pro h3 {
+  margin-top: 50px;
+}
+.template {
+  display: none;
+}
+.icon-menu {
+  float: right;
+  font-size: 10vw;
+  top: 1vh;
+  right: 1vw;
+}
