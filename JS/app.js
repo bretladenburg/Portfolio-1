@@ -11,13 +11,9 @@ function Project(projectDataObj) {
 }
 
 Project.prototype.toHtml = function() {
-  var $newProject = $('div.template').clone();
-  $newProject.removeClass('template');
-  $newProject.find('h3').text(this.title);
-  $newProject.find('p').html(this.description);
-  $newProject.find('a').attr('href', this.source);
-  $newProject.find('img').attr('src', this.img);
-  return $newProject.html();
+  var $project = $('#template').html();
+  var renderProject = Handlebars.compile($project);
+  return renderProject(this);
 };
 
 projectsData.forEach(function(projectObj) {
@@ -25,5 +21,5 @@ projectsData.forEach(function(projectObj) {
 });
 
 projectsArr.forEach(function(project) {
-  $('#pro').append(project.toHtml());
+  $('.project').append(project.toHtml());
 });

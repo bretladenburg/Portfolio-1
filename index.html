@@ -3,14 +3,24 @@
 <head>
   <title>ZDiehlio Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="stylesheet" href="reset.css"/>
+  <link rel="stylesheet" href="styles/base.css"/>
+  <link rel="stylesheet" href="styles/reset.css"/>
+  <link rel="stylesheet" href="styles/layout.css"/>
+  <link rel="stylesheet" href="styles/module.css"/>
   <script src="https://use.fontawesome.com/bb60f708cf.js"></script>
-  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/457a3bd24c/UntitledProject/style.css">
+  <!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/457a3bd24c/UntitledProject/style.css"> -->
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+  <script id="template" type="text/x-handlebars-template">
+    <div id="template">
+    <h3>{{title}}</h3>
+    <p>{{description}}</p>
+    <a href="{{source}}"><img src="{{img}}"/></a>
+    </div>
+  </script>
 </head>
 <body>
 <header>
@@ -29,18 +39,11 @@
     <a href="https://www.instagram.com/zdiehlio"><i class="fa fa-instagram" aria-hidden="true"></i></a  >
   </div>
 </aside>
-  <section id="play">
-  </section>
-  <section id="passion"><h2>passion projects</h2></section>
   <section id="pro">
-  <div class="template">
-    <!-- <h2>Pro Projects</h2> -->
-        <h3></h3>
-        <p></p>
-        <a href=""><img src=""/></a>
+  <div class="project">
   </div>
 </section>
-  <script rel='javascript' src="data.js"></script>
-<script rel='javascript' src="app.js"></script>
+  <script rel='javascript' src="JS/data.js"></script>
+  <script rel='javascript' src="JS/app.js"></script>
 </body>
 </html>
