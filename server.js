@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static('./public'));
 
 app.get('/', function(request, response) {
-  response.sendFile('/public/index.html'), {root: '.'};
+  response.sendFile('public/index.html'), {root: '.'};
 });
 
 app.post('/articles', bodyParser, function(request, response) {

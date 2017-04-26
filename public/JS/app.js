@@ -1,4 +1,5 @@
 'use strict';
+(function(module) {
 
 var projectsArr = [];
 
@@ -16,10 +17,12 @@ Project.prototype.toHtml = function() {
   return renderProject(this);
 };
 
-projectsData.forEach(function(projectObj) {
+projectsData.map(projectObj => {
   projectsArr.push(new Project (projectObj));
 });
 
-projectsArr.forEach(function(project) {
+projectsArr.map(project => {
   $('.project').append(project.toHtml());
 });
+module.Project = Project;
+})(window);
